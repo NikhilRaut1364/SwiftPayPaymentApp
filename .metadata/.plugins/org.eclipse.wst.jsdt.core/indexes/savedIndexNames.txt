@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\SwiftPay\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1295211223.index
+934552045.index
+3458738100.index
+3296309679.index
+1683941942.index
+3883851347.index

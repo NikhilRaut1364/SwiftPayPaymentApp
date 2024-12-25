@@ -1,0 +1,28 @@
+
+Sep 16, 2020 15:42:06.701 NEW SESSION
+Sep 16, 2020 15:42:06.701 [20124:26040:0916/154206.600:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 16, 2020 15:50:26.542 [24416:26156:0916/155026.541:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 16, 2020 15:50:39.650 [10508:16872:0916/155039.650:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+Sep 18, 2020 12:16:07.225 NEW SESSION
+Sep 18, 2020 12:16:07.225 [9080:14736:0918/121607.223:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+Sep 18, 2020 19:20:40.311 NEW SESSION
+Sep 18, 2020 19:20:40.311 [21972:27012:0918/192040.309:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 19:21:59.579 [13268:7896:0918/192159.578:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 19:25:32.467 [26276:18308:0918/192532.467:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 19:26:38.841 [5772:3812:0918/192638.840:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 19:27:45.730 [20812:10468:0918/192745.729:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 19:30:04.395 [18376:25580:0918/193004.394:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 19:37:11.420 [3328:15224:0918/193711.420:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 20:18:39.475 [3060:16688:0918/201839.475:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 20:22:46.469 [3740:7040:0918/202246.468:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 18, 2020 21:10:49.695 [19976:16564:0918/211049.695:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+Sep 19, 2020 12:20:24.561 NEW SESSION
+Sep 19, 2020 12:20:24.561 [26444:26580:0919/122024.559:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 19, 2020 12:26:54.506 [10520:13048:0919/122654.506:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+May 16, 2021 14:03:34.450 NEW SESSION
+May 16, 2021 14:03:34.450 [17144:10264:0516/140334.445:ERROR:device_event_log_impl.cc(214)] [14:03:34.445] USB: usb_device_handle_win.cc:1054 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 16, 2021 14:03:34.451 [17144:10264:0516/140334.445:ERROR:device_event_log_impl.cc(214)] [14:03:34.446] USB: usb_device_handle_win.cc:1054 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)

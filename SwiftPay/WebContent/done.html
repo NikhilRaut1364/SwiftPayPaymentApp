@@ -1,0 +1,102 @@
+<html>
+<head>
+<style>
+
+*{
+margin:0px;
+font-family:candara;
+}
+
+.header{
+height:150px;
+width:100%;
+background-color:#25488e;
+display:flex;
+align-items:center;
+}
+
+.plane{
+height:100px;
+width:250px;
+display:flex;
+justify-content:center;
+align-items:center;
+margin-left:40px;
+}
+
+.parent{
+height:670px;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+.child{
+height:400px;
+width:400px;
+display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:20px;
+}
+
+#circ{
+stroke-dashoffset:1000;
+stroke-dasharray:1000;
+animation-name:correct;
+animation-duration:10s;
+animation-timing-function:ease-in-out;
+animation-fill-mode: forwards;
+}
+
+#tick{
+stroke-dashoffset:1000;
+stroke-dasharray:1000;
+animation-name:correct;
+animation-duration:6s;
+animation-timing-function:ease-in-out;
+animation-delay:1s;
+animation-fill-mode: forwards;
+}
+
+@keyframes correct{
+to{
+stroke-dashoffset:0;
+}
+}
+
+</style>
+<script type="text/javascript">
+setTimeout(function(){
+    window.location.href = "main.jsp";
+  }, 6000);
+</script>
+<link href="css/all.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header">
+	<div class="plane">
+	<i class="fas fa-paper-plane" style="color:white; font-size:50px;"></i>
+	&nbsp&nbsp&nbsp
+	<span style="font-size:35px;color:white;">SwiftPay</span>
+	</div>
+</div>
+<div class="parent">
+<div class="child">
+	<div class="trigger"></div>
+<svg version="1.1" id="tick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 37 37" style="enable-background:new 0 0 37 37;" xml:space="preserve" height="350px" width="350px">
+	 
+<path id="circ" style="fill:none;stroke:#25488e;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="
+	M30.5,6.5L30.5,6.5c6.6,6.6,6.6,17.4,0,24l0,0c-6.6,6.6-17.4,6.6-24,0l0,0c-6.6-6.6-6.6-17.4,0-24l0,0C13.1-0.2,23.9-0.2,30.5,6.5z"
+	/>
+<polyline id="tick" style="fill:none;stroke:#25488e;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" points="
+	11.6,20 15.9,24.2 26.4,13.8 "/>
+</svg>
+</div>
+<span style="font-size:50px; color:#25488e;">Done</span>
+</div>
+</body>
+</html>
